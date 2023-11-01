@@ -5,4 +5,8 @@ def multiplication(nb, limite):
         print(i, "x", nb, "=", i*nb)
 multiplication(5, 10)
 
-
+class voiture :
+    def __init__(self, compagnie, ddc, pays):
+        self.compagnie = compagnie
+        self.ddc = ddc
+        self.pays = pays
