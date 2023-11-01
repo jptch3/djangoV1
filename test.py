@@ -10,3 +10,8 @@ class voiture :
         self.compagnie = compagnie
         self.ddc = ddc
         self.pays = pays
+    
+    def changernom(self, newname):
+        old= self.compagnie
+        self.compagnie = newname
+        return f'Le vieux nom est {old} pour le nouveau qui est {self.compagnie}'
